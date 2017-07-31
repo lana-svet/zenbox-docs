@@ -1,0 +1,48 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="A feature centric platform for fast prototyping and building of talking devices">
+  <meta name="author" content="Just AI">
+
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/tron-ui.css">
+  <link rel="stylesheet" href="/css/son-of-obsidian.css">
+  <link rel="stylesheet" href="/css/animate.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <meta property="og:url" content="https://zenbox.ai" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="A feature centric platform for fast prototyping and building of talking devices" />
+  <meta property="og:description" content="Create your talking device with ease using the power of AI and NLP of Zenbox"/>
+  <meta property="og:image" content="https://zenbox.ai/img/zenbox.jpg" />
+
+  <!-- Start of Async Drift Code -->
+  <script>
+    !function() {
+      var t;
+      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+              t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+              t.factory = function(e) {
+                return function() {
+                  var n;
+                  return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+                };
+              }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e, n, o, i;
+        e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+                o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+                n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+      });
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('viv48c7vpybm');
+  </script>
+  <!-- End of Async Drift Code -->
+</head>

@@ -1,0 +1,28 @@
+---
+layout: page
+title: Skills Guide
+permalink: /skills/
+---
+
+{% include header.html color="#283e4b" img="/img/box.png" title="Skills Guide" summary="This guide contains a description of supported Zenbox voice skills" %}
+
+<p>Each skill is a voice feature for your project.
+Zenbox provides a set of ready-to-use voice skills that can be enabled in two clicks of mouse.
+</p>
+
+<p>Each skill has a pricing and a list of sample phrases that can be used with this skill.
+Some skills require additional parameters to be provided before the skill can be enabled.
+As well as some integration requirements.
+</p>
+
+<p>Below is a set of currently supported voice skills and their descriptions.</p>
+
+<div class="row">
+    {% include skill.html id="deezer" color="#000000" title="Deezer music" summary="Plays music from deezer.com" %}
+    {% include skill.html id="deezerKids" color="#550022" title="Deezer music for kids" summary="Plays children safe music from deezer.com" %}
+    {% include skill.html id="wolphram" color="#c82500" title="Wolfram|Alpha" summary="Calculates answers through a Wolfram|Alpha API" %}
+    {% include skill.html id="wiki" color="#1a1a1a" title="Wikipedia" summary="Calculates answers through a Wikimedia API" %}
+    {% include skill.html id="weather" color="#2c89a0" title="Openweathermap" summary="Gets weather through a Openweathermap API" %}
+    {% include skill.html id="radio" color="#a02c2c" title="Dirble radio" summary="Finds and turns on the Dirble radio stations" %}
+
+</div>
