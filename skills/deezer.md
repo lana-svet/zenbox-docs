@@ -30,8 +30,10 @@ This skill requires the request data is fulfilled with an additional fields
 ### Actions
 This skill recognises and returns one of the following actions
 
-`musicOn` - player should switch on the music playback  
-`musicOff` - player should switch off the music playback
+`musicOn` - an audio player should switch on the music playback  
+`musicOff` - an audio player should switch off the music playback
+`musicPause` - an audio player should pause the music playback
+`musicResume` - an audio player should resume the music playback
 
 ### Response data
 This skill returns the next additional data fields in the response
