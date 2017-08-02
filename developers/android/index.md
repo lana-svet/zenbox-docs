@@ -132,8 +132,10 @@ You can fulfill the RequestData with additional request parameters in this metho
 
 {% include note.html text="onRequest method is invoked on the background thread, thus you can perform any blocking operations during the RequestData fulfillment (e.g. database querying, filesystem operations an so on)." %}
 
-Some voice skills require additional parameters to be passed with request.
+This step is necessary because some voice skills require additional parameters to be passed with request.
 Please learn more about each skill requirements on [this page](/skills/).
+
+{% include note.html text="Each implementation of AbstractSkill added to ZenboxService will be invoked at this moment. Read below about Local skills below." %}
 
 After a fulfillment, ZenboxService processes RequestData through the set of currently enabled voice skills in your Zenbox project on zenbox.ai.
 Once the result is fetched ZenboxService synthesises the response speech and invokes [ZenboxListener.onResponse(ResponseData)](javadoc/com/justai/zenbox/sdk/listener/ZenboxListener.html#onResponse-com.justai.zenbox.sdk.ResponseData-) callback method.
@@ -163,6 +165,37 @@ textToSpeech.addListener(new TextToSpeechListener() {
                                  }
                              });
 ```
+
+## Local skills (AbstractSkill)
+Some skills require to perform some actions locally on the device.
+For example the music skill has to control a playback of the track list provided by Zenbox API.
+Thus the developer has to implement a local skill logic depending on the platform.
+
+There is a special [AbstractSkill](javadoc/com/justai/zenbox/sdk/api/AbstractSkill.html) class that should be extended by your implementation of each local skill.
+This class already implements a [ZenboxListener](javadoc/com/justai/zenbox/sdk/listener/ZenboxListener.html) interface, thus ZenboxService calls it\'s
+lifecycle callback methods automatically.
+
+An AbstractSkill should implement [AbstractSkill.isActionSupported](javadoc/com/justai/zenbox/sdk/api/AbstractSkill.html#isActionSupported-java.lang.String-) 
+returning `true` if the action of [ResponseData.SuccessResponse](javadoc/com/justai/zenbox/sdk/ResponseData.SuccessResponse.html) is supported 
+by this particular implementation. Only if this method returns `true` the [AbstractSkill.onResponse](javadoc/com/justai/zenbox/sdk/api/AbstractSkill.html#onResponse-com.justai.zenbox.sdk.ResponseData.SuccessResponse-)
+will be invoked with corresponding Zenbox response data.
+
+This allows to clarify the logic handling only those responses the skill was implemented for.
+
+### Add local skill
+Each AbstractSkill implementation should be added to ZenboxService on the building step through a [ZenboxService.Builder.addSkill](javadoc/com/justai/zenbox/sdk/ZenboxService.Builder.html#addSkill-com.justai.zenbox.sdk.api.AbstractSkill-)
+method. For example
+
+```java
+mZenboxService = new ZenboxService.Builder(this, mZenboxApiKey, mUnitId)
+                .setListener(mZenboxListener)
+                .setSpeechToText(speechToText)
+                .setTextToSpeech(textToSpeech)
+                .addSkill(new MusicSkill(textToSpeech))
+                .build();
+```
+
+Please [refer to the sample app](sample) to see the sample `MusicSkill` implementation.
 
 ## Standby mode
 Once you have constructed a [ZenboxService](javadoc/com/justai/zenbox/sdk/ZenboxService.html) instance, you should invoke [ZenboxService.invoke()](javadoc/com/justai/zenbox/sdk/ZenboxService.html#standby--) method 
