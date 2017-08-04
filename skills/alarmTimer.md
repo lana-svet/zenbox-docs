@@ -16,6 +16,10 @@ This voice skill enables the user to set a timer, measuring a certain time perio
 {% include sample.html request="Start a timer for 5 minutes." response="Your timer will go off in 5 minutes." %}
 {% include sample.html request="Cancel!" response="The timer has been cancelled." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

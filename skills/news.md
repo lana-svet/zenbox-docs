@@ -23,6 +23,10 @@ This voice skill enables user to ask for the fresh news.
 {% include sample.html request="What is new about politics?" response="Ted Cruz Busts Elon Musk for Flying Private Jet While Lecturing Trump on Global Warming Breitbart." %}
 {% include sample.html request="When was it published?" response="This information was published on 2nd June." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill requires the following parameters to enable it:
 

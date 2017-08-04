@@ -18,6 +18,10 @@ Math game helps to train arithmethic skills in a question-answer game form. It c
 {% include sample.html request="It's 3." response="Wrong. But no problem, practice makes perfect! The correct answer is 2. Let's try something easier! What number is missing here? 3, 4, 6, 7" %}
 {% include sample.html request="Stop!" response="Enough is enough! On this difficulty level we've not yet given any correct answers... Well, let's learn maths together!" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

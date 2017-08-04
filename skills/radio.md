@@ -22,8 +22,12 @@ This voice skill enables the user to listen to FM radio streaming.
 {% include sample.html request="Turn on news radio" response="BBC News radio" %}
 {% include sample.html request="Next" response="Turning on Bruxelles-news" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
-This skill requires additional parameters to enable it:
+This skill requires the following parameters to enable it:
 
 `apiKey` - developer's access token from [Dirble](https://dirble.com/)
 

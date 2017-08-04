@@ -19,6 +19,10 @@ Zoo game is an educational game with questions about animals. Questions contain 
 {% include sample.html request="Spider!" response="It seems this answer is wrong. Are we going to continue playing?" %}
 {% include sample.html request="No." response="OK, let's stop! We've given correct answers to 1 question out of 2! Marvellous!" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

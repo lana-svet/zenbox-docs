@@ -21,6 +21,10 @@ and payments. Thus Zenbox allows to search over kids music tracks in Deezer\'s m
 {% include sample.html request="Play music from cartoons" response="Now playing Rhymes 'n' Rhythm, 'I Give You To His Heart'" %}
 {% include sample.html request="I want to listen to a lullaby" response="Now playing Einstein Baby Lullaby Academy, 'The Ballad of Davy Crockett'" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

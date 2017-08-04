@@ -23,6 +23,10 @@ and payments. Thus Zenbox allows to search over Deezer\'s music library by voice
 {% include sample.html request="Play relaxing music" response="Now playing Acoustic Hits, 'Chilled Jazz'" %}
 {% include sample.html request="What is playing?" response="It's Acoustic Hits, 'Chilled Jazz'" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

@@ -19,6 +19,10 @@ This volume skill enables the user to ser up and control the volume of the devic
 {% include sample.html request="Turn volume to minimum" response="Volume is on the minimum level." %}
 {% include sample.html request="Quiter" response="Volume is muted." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill requires the following parameters to enable it:
 

@@ -19,6 +19,10 @@ This voice skill enables user to query WolphramAlpha service.
 {% include sample.html request="Wolfram Alpha Movies starring Kevin Bacon and Tom Cruise." response="A Few Good Men" %}
 {% include sample.html request="How many kids are repeating primary school in Mexico?" response="0.818 percent" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill requires the following parameters to enable it:
 

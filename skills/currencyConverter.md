@@ -17,8 +17,13 @@ This voice skill enables the user to get exchange rates and convert currencies.
 {% include sample.html request="What's the exchange rate between US dollars and Chinese currency?" response="1 USD is 6.81 CNY." %}
 {% include sample.html request="How much is 10 $ worth in France?" response="10 USD is 8.12 EUR." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 
 ## Integration
 Integration of this skill does not require any configuration setup.
+

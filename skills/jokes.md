@@ -15,6 +15,10 @@ This voice skill provides about a hundred of one-line jokes. All jokes are suita
 {% include sample.html request="Crack a joke." response="What did 0 say to 8? Hey, nice belt!" %}
 {% include sample.html request="So boring" response="I'm sorry." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

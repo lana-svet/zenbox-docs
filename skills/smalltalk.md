@@ -18,6 +18,10 @@ This voice skill enriches the dialog with unit's personality and supports conver
 {% include sample.html request="How clever you are!" response="All my intelligence is artificial." %}
 {% include sample.html request="Who created you?" response="I've been created by Just AI." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill requires the following parameters to enable it:
 

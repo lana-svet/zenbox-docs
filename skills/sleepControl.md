@@ -15,6 +15,10 @@ This voice skill enables the user to turn the device to sleep mode.
 {% include sample.html request="Sleep!" response="Sleep mode is turned on." %}
 {% include sample.html request="Turn on standby mode." response="Sleep mode is turned on." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

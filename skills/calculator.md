@@ -18,6 +18,10 @@ This voice skill enables the user to get the calculations including elementary a
 {% include sample.html request="and plus 457" response="6484" %}
 {% include sample.html request="What is the cosine of 90?" response="0" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 
 ## Additional parameters
 This skill does not require any additional parameters to enable it.

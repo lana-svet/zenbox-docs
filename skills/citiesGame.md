@@ -19,6 +19,10 @@ Cities game is a word chain game, where the players call out the names of cities
 {% include sample.html request="Canberra" response="Canberra starts with C, while Lagos ends with S. You have to name a city starting with S. Will you try again?" %}
 {% include sample.html request="No." response="Let's finish! Our word chain is 5 words long." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

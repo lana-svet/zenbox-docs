@@ -14,6 +14,9 @@ This voice skill enables the user to get the battery status of the device.
 {% include sample.html request="How well is the device charged?" response="The battery status is 2 out of 5." %}
 {% include sample.html request="Show the battery status." response="The battery status is 30%." %}
 
+## Supported languages
+`English`  
+`Russian`
 
 ## Additional parameters
 This skill requires the following parameters to enable it:

@@ -19,8 +19,12 @@ This voice skill enables the user to find out the stock price of big companies.
 {% include sample.html request="The closing price is 143.74 USD for Apple Inc." response="Show me the highest price of Apple on Monday." %}
 {% include sample.html request="The highest price on 26th June is 148.28 USD for Apple Inc." response="And on Tuesday." %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
-This skill requires additional parameters to enable it:
+This skill requires the following parameters to enable it:
 
 `apikey` - developer's API key from [Alpha Vantage](https://www.alphavantage.co/)
 

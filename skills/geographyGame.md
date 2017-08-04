@@ -18,6 +18,10 @@ Geography game introduces the user to the world of countries and their capitals 
 {% include sample.html request="Beijing." response="Computer tells me that it's not so! The capital of Japan is Tokyo. Which of the two cities is the capital of The Republic of Korea Dublin or Seoul?" %}
 {% include sample.html request="Lets' finish!" response="Ok, let's finish! We've given correct answers to 1 question out of 2! Great result!" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
 

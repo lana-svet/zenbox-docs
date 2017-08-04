@@ -20,6 +20,10 @@ This voice skill enables user to get information about the weather at any locati
 {% include sample.html request="Weather in London" response="In London it's +72 degrees with shower rain." %}
 {% include sample.html request="And the day after tomorrow?" response="4th June in London it's +65 degrees with light rain" %}
 
+## Supported languages
+`English`  
+`Russian`
+
 ## Additional parameters
 This skill requires the following parameters to enable it:
 

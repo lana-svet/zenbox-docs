@@ -16,6 +16,9 @@ This voice skill enables the user to create a reminder for a selected time in fu
 {% include sample.html request="Tomorrow at 3 pm." response="Ok, I'll remind you 3:00 pm, August 25, 2017, feed the cat." %}
 {% include sample.html request="Cancel!" response="The reminder has been cancelled." %}
 
+## Supported languages
+`English`  
+`Russian`
 
 ## Additional parameters
 This skill does not require any additional parameters to enable it.
