@@ -9,16 +9,15 @@ permalink: /skills/reminder/
 ## Summary
 This voice skill enables the user to create a reminder for a selected time in future or for a moment in time, specified relatively to the present moment.
 
+## Supported languages
+`English`, `Russian`
+
 ## Sample phrases
 {% include sample.html request="Remind me to feed the cat at 3 o'clock." response="Ok, I'll remind you 3:00 am, feed the cat." %}
 {% include sample.html request="Remind me to attend the meeting at 13th November at 6:30 pm." response="Ok, I'll remind you 6:30 pm, November 13, 2017, attend the meeting." %}
 {% include sample.html request="Make a reminder to feed the cat." response="When should I remind you about 'feed the cat'?" %}
 {% include sample.html request="Tomorrow at 3 pm." response="Ok, I'll remind you 3:00 pm, August 25, 2017, feed the cat." %}
 {% include sample.html request="Cancel!" response="The reminder has been cancelled." %}
-
-## Supported languages
-`English`  
-`Russian`
 
 ## Additional parameters
 This skill does not require any additional parameters to enable it.

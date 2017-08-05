@@ -9,8 +9,10 @@ permalink: /skills/news/
 ## Summary
 This voice skill enables user to ask for the fresh news.
 
-[News API](https://newsapi.org/) provides the access to more than 50 news resources of 10 categories. News skill returns one-sentence snippet, which contains the most important information.
+[News API](https://newsapi.org/) provides the access to more than 50 news resources of 10 categories. News skill returns one-sentence snippet that contains the most important information.
 
+## Supported languages
+`English`, `Russian`
 
 ## Sample phrases
 {% include sample.html request="Tell me sport news" response="LeBron James leads Cleveland to historic comeback win." %}
@@ -23,14 +25,11 @@ This voice skill enables user to ask for the fresh news.
 {% include sample.html request="What is new about politics?" response="Ted Cruz Busts Elon Musk for Flying Private Jet While Lecturing Trump on Global Warming Breitbart." %}
 {% include sample.html request="When was it published?" response="This information was published on 2nd June." %}
 
-## Supported languages
-`English`  
-`Russian`
-
 ## Additional parameters
 This skill requires the following parameters to enable it:
 
-`apiKey` - developer's access token from [News API](https://newsapi.org/)
+#### Developer's access token 
+Obtain your access token from [News API](https://newsapi.org/)
 
 ## Integration
 Integration of this skill does not require any configuration setup.

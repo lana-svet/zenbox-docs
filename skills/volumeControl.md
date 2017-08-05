@@ -9,6 +9,9 @@ permalink: /skills/volumeControl/
 ## Summary
 This volume skill enables the user to ser up and control the volume of the device. 
 
+## Supported languages
+`English`, `Russian`
+
 ## Sample phrases
 {% include sample.html request="Make the sound more quiet" response="Volume is decreased." %}
 {% include sample.html request="Turn down" response="Volume is muted." %}
@@ -19,15 +22,14 @@ This volume skill enables the user to ser up and control the volume of the devic
 {% include sample.html request="Turn volume to minimum" response="Volume is on the minimum level." %}
 {% include sample.html request="Quiter" response="Volume is muted." %}
 
-## Supported languages
-`English`  
-`Russian`
-
 ## Additional parameters
 This skill requires the following parameters to enable it:
 
-`levels` - number of volume levels in your system  
-`step` - difference of values between each two neighbor volume levels
+#### Levels
+Define the number of volume levels in your system
+
+#### Step
+Define the difference of values between each two neighbor volume levels
 
 ## Integration
 ### Actions

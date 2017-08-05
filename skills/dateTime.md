@@ -7,8 +7,10 @@ permalink: /skills/dateTime/
 {% include header.html color="#803300" img="https://assets.zenbox.ai/zenbox-icons/dateTime.png" title="Date & Time skill" summary="Tells the time. Every time. Everywhere." %}
 
 ## Summary
-This voice skill provides time and date information for the user's location or anywhere around the world. 
+This voice skill provides time and date information for the user's location or anywhere around the world.
 
+## Supported languages
+`English`, `Russian`
 
 ## Sample phrases
 {% include sample.html request="What time is it in London now?" response="It is 05:00 PM in London now" %}
@@ -23,10 +25,6 @@ This voice skill provides time and date information for the user's location or a
 {% include sample.html request="What's the time difference between Rome and Prague?" response="No time difference" %}
 {% include sample.html request="And between Helsinki and London?" response="Time difference between Helsinki and London is -2 hours" %}
 {% include sample.html request="How late is it in Chicago if in Tokyo it's 3 a.m.?" response="When it's 3 am in Tokyo, it's 1 pm in Chicago" %}
-
-## Supported languages
-`English`  
-`Russian`
 
 ## Additional parameters
 This skill does not require any additional parameters to enable it.

@@ -118,3 +118,6 @@ In case of success (even an empty) response HTTP API returns a `200 OK` status w
 In the case of wrong formatted request `400 Bad Request` status will be returned with a plain text of error in response body.  
 In all other cases of internal errors `500 Internal Server Error` status will be returned with a plain text of error in response body.
 
+<div class="text-center padding-top-2x">
+  <a href="http://sdk.zenbox.ai" target="_blank" class="btn btn-lg btn-primary">Create a Zenbox project now</a>
+</div>

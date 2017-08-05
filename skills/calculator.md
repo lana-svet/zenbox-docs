@@ -9,6 +9,8 @@ permalink: /skills/calculator/
 ## Summary
 This voice skill enables the user to get the calculations including elementary arithmetic, square root extraction, exponentiation and trigonometric functions.
 
+## Supported languages
+`English`, `Russian`
 
 ## Sample phrases
 {% include sample.html request="How much is the root of one hundred?" response="10" %}
@@ -17,11 +19,6 @@ This voice skill enables the user to get the calculations including elementary a
 {% include sample.html request="123 multiply 49" response="6027" %}
 {% include sample.html request="and plus 457" response="6484" %}
 {% include sample.html request="What is the cosine of 90?" response="0" %}
-
-## Supported languages
-`English`  
-`Russian`
-
 
 ## Additional parameters
 This skill does not require any additional parameters to enable it.

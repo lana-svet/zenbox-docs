@@ -11,6 +11,8 @@ This voice skill enables user to get information about the weather at any locati
 
 [OpenWeatherMap](https://openweathermap.org/) provides access to detailed weather and forecast information at any location in the world.
 
+## Supported languages
+`English`, `Russian`
 
 ## Sample phrases
 {% include sample.html request="What is the weather like today?" response="It's +47 degrees with broken clouds." %}
@@ -20,18 +22,15 @@ This voice skill enables user to get information about the weather at any locati
 {% include sample.html request="Weather in London" response="In London it's +72 degrees with shower rain." %}
 {% include sample.html request="And the day after tomorrow?" response="4th June in London it's +65 degrees with light rain" %}
 
-## Supported languages
-`English`  
-`Russian`
-
 ## Additional parameters
 This skill requires the following parameters to enable it:
 
-`apiKey` - developer's API key from [OpenWeatherMap](https://openweathermap.org/) 
+#### Developer's API key 
+Obtain your Openweathermap API key from [OpenWeatherMap](http://openweathermap.org/appid) 
 
 ## Integration
 ### Request
 This skill requires the request data is fulfilled with an additional fields:
 
-`lat` - latitude of the user current location      
-`lon` - longitude of the user current location    
+`lat` - latitude of the user\'s current location      
+`lon` - longitude of the user\'s current location    

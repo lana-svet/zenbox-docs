@@ -11,6 +11,8 @@ This voice skill enables user to query WolphramAlpha service.
 
 [Wolphram\|Alpha](https://www.wolframalpha.com/) is a computanional knowledge language, which can answer different-domains questions. 
 
+## Supported languages
+`English`, `Russian`
 
 ## Sample phrases
 {% include sample.html request="Why is the sky blue?" response="The sky's blue color is a result of the effect of Rayleigh scattering. Shorter‐wavelength blue light is more strongly scattered in the earth's atmosphere than longer‐wavelength red light; the human eye perceives the color blue when looking at the sky as a result." %}
@@ -19,14 +21,11 @@ This voice skill enables user to query WolphramAlpha service.
 {% include sample.html request="Wolfram Alpha Movies starring Kevin Bacon and Tom Cruise." response="A Few Good Men" %}
 {% include sample.html request="How many kids are repeating primary school in Mexico?" response="0.818 percent" %}
 
-## Supported languages
-`English`  
-`Russian`
-
 ## Additional parameters
 This skill requires the following parameters to enable it:
 
-`appId` - developer's AppID from [Wolphram\|Alpha](https://www.wolframalpha.com/)
+#### Developer's AppID 
+Obtain your from Wolphram Alpha App ID from [Wolphram\|Alpha](https://products.wolframalpha.com/api/)
 
 ## Integration
 Integration of this skill does not require any configuration setup.

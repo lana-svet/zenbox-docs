@@ -7,10 +7,12 @@ permalink: /skills/radio/
 {% include header.html color="#a02c2c" img="https://assets.zenbox.ai/zenbox-icons/radio.png" title="Dirble radio skill" summary="Finds and turns on the radio stations" %}
 
 ## Summary
-This voice skill enables the user to listen to FM radio streaming. 
+This voice skill enables the user to listen to FM radio streaming from Dirble. 
 
 [Dirble radio](https://dirble.com/) provides access to more than 3000 of radiostations of 70 genres. 
 
+## Supported languages
+`English`, `Russian`
 
 ## Sample phrases
 {% include sample.html request="Turn on news radio" response="Turning on News radio" %}
@@ -22,14 +24,11 @@ This voice skill enables the user to listen to FM radio streaming.
 {% include sample.html request="Turn on news radio" response="BBC News radio" %}
 {% include sample.html request="Next" response="Turning on Bruxelles-news" %}
 
-## Supported languages
-`English`  
-`Russian`
-
 ## Additional parameters
 This skill requires the following parameters to enable it:
 
-`apiKey` - developer's access token from [Dirble](https://dirble.com/)
+#### Developer's access token 
+Obtain your access token from [Dirble](https://dirble.com/users/apikeys).
 
 ## Integration
 ### Actions

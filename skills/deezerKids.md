@@ -12,6 +12,8 @@ This voice skill enables the user to search over thousands of songs, suitable fo
 [Deezer music](http://deezer.com) provides an easy to use music service that allows to listen a 30 seconds of track snippets without any registration
 and payments. Thus Zenbox allows to search over kids music tracks in Deezer\'s music library by voice and plays track lists.
 
+## Supported languages
+`English`, `Russian`
 
 ## Sample phrases
 {% include sample.html request="Play music" response="Now playing The Sing-a-long Superstars, 'Ring-a-Ring-A Roses'" %}
@@ -20,10 +22,6 @@ and payments. Thus Zenbox allows to search over kids music tracks in Deezer\'s m
 {% include sample.html request="Stop" response="The music is off." %}
 {% include sample.html request="Play music from cartoons" response="Now playing Rhymes 'n' Rhythm, 'I Give You To His Heart'" %}
 {% include sample.html request="I want to listen to a lullaby" response="Now playing Einstein Baby Lullaby Academy, 'The Ballad of Davy Crockett'" %}
-
-## Supported languages
-`English`  
-`Russian`
 
 ## Additional parameters
 This skill does not require any additional parameters to enable it.

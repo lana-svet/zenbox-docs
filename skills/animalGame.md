@@ -11,6 +11,8 @@ This voice skill enables the user to play Zoo game.
 
 Zoo game is an educational game with questions about animals. Questions contain information about animals' extremities, savagery, class and employment.
 
+## Supported languages
+`English`, `Russian`
 
 ## Sample phrases
 {% include sample.html request="Let's play zoo!" response="Ok! I've got to do my hometask for the roboschool, it checks how well I know the animals. Will you help me?" %}
@@ -18,10 +20,6 @@ Zoo game is an educational game with questions about animals. Questions contain 
 {% include sample.html request="Cow!" response="You are such a wonderful teacher! This is a correct answer! Who has horns spider or antelope?" %}
 {% include sample.html request="Spider!" response="It seems this answer is wrong. Are we going to continue playing?" %}
 {% include sample.html request="No." response="OK, let's stop! We've given correct answers to 1 question out of 2! Marvellous!" %}
-
-## Supported languages
-`English`  
-`Russian`
 
 ## Additional parameters
 This skill does not require any additional parameters to enable it.

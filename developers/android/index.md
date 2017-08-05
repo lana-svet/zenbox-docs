@@ -209,5 +209,6 @@ When performing speech recognition, it is important to indicate to the users tha
 a new request. This method accepts an audio resource ID from the `raw` folder of your application and ZenboxService plays it automatically right 
 before the start of speech recognition.
 
-
-
+<div class="text-center padding-top-2x">
+  <a href="http://sdk.zenbox.ai" target="_blank" class="btn btn-lg btn-primary">Create a Zenbox project now</a>
+</div>
