@@ -4,7 +4,7 @@ title: Wolphram|Alpha skill
 permalink: /skills/wolframAlpha/
 ---
 
-{% include header.html color="#c82500" img="https://assets.zenbox.ai/zenbox-icons/wolphram.png" title="Wolphram|Alpha skill" summary="Calculates answers across a range of topics" %}
+{% include header.html color="#c82500" img="https://assets.zenbox.ai/zenbox-icons/wolframAlpha.png" title="Wolphram|Alpha skill" summary="Calculates answers across a range of topics" %}
 
 ## Summary
 This voice skill enables user to query WolphramAlpha service.
