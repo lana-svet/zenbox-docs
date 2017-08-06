@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wolphram|Alpha skill
-permalink: /skills/wolphram/
+permalink: /skills/wolframAlpha/
 ---
 
 {% include header.html color="#c82500" img="https://assets.zenbox.ai/zenbox-icons/wolphram.png" title="Wolphram|Alpha skill" summary="Calculates answers across a range of topics" %}
