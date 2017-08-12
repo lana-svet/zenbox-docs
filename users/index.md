@@ -142,7 +142,7 @@ It contains a total price, the count of requests and units, and popularity of ea
 To see a statistics just click on _Statistics_ link on the navigation bar.
 Then select an appropriate period of time if needed.
 
-## Integrate into your product
+## Integrate Zenbox into your product
 Once you have tested your Zenbox project, it\'s a time to integrate it into your real devices and applications.
 To do this your developers have to use Zenbox SDK or Zenbox HTTP API described in the _Developers Guide_.
 All you need for that - is to provide them an API key of your Zenbox project from _Settings_ page or grant them an access to the project.
