@@ -37,7 +37,7 @@ repositories {
 }
 dependencies {
     ...
-    compile 'com.justai.zenbox:android-sdk:1.0.0'
+    compile 'com.justai.zenbox:android-sdk:1.0.1'
 }
 ```
 
