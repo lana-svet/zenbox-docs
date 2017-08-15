@@ -11,6 +11,10 @@ It shows how it can be useful for your product and describes a core principles o
 You do not have to write any programming code during this guide.
 There is a separate [guide for developers](/developers/) who are responsible for the integration of Zenbox SDK into the source code of your product.
 
+<div class="text-center padding-top">
+  <a class="btn btn-primary btn-lg" href="https://sdk.zenbox.ai" target="_blank">Create a project</a>
+</div>
+
 ## What Zenbox is about
 Zenbox is a feature centric cloud platform for device manufacturers who want to enable their product to speak with end customers naturally 
 using speech technologies.
