@@ -15,7 +15,7 @@ There is a separate [guide for developers](/developers/) who are responsible for
 Zenbox is a feature centric cloud platform for device manufacturers who want to enable their product to speak with end customers naturally 
 using speech technologies.
 
-Zenbox includes a ready-to-use components like speech-to-text, text-to-speech and natural language processing engine to provide you with 
+Zenbox includes a ready-for-use components like speech-to-text, text-to-speech and natural language processing engine to provide you with 
 comprehensive solution for building of talking products.
 
 It doesn\'t matter what your device is.
@@ -30,10 +30,10 @@ Moreover it is a new way of human-machine communication interface that simplifie
 
 ## Why Zenbox
 In comparision with another solutions, Zenbox provides not only a speech-to-text recognition, text-to-speech synthesis and natural language understanding services.
-It contains all these components together clued in proper way in a single bundle as well as an extensible [list of ready-to-use voice skills](/skills/)
+It contains all these components together clued in proper way in a single bundle as well as an extensible [list of ready-for-use voice skills](/skills/)
 that can be enabled for your product out of the box without needing the implementation routine.
 
-Thus you can create a ready-to-use voice enabled project in a minutes _without any programming_ and then integrate it into the real devices 
+Thus you can create a ready-for-use voice enabled project in a minutes _without any programming_ and then integrate it into the real devices 
 with our easy-to-use [Zenbox SDK and API](/developers/) in days instead of months.
 
 ## How to start

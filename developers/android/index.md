@@ -6,7 +6,7 @@ permalink: /developers/android/
 
 {% include header.html color="#94bf67" img="/img/android.png" title="Android SDK Guide" summary="This guide shows how to use Zenbox Android SDK in your application or device" %}
 
-Zenbox Android SDK simplifies the usage of [HTTP API](/developers/http/) and also provides you a ready-to-use components for speech recognition and synthesis.
+Zenbox Android SDK simplifies the usage of [HTTP API](/developers/http/) and also provides you a ready-for-use components for speech recognition and synthesis.
 Also it contains an abstraction level to implement the voice skills capabilities that should be run on the device (like music or alarm skills).
 This you do not have to implement everything on your own. Instead - you may just initialize Zenbox service properly and have a voice enabled application ready to work.
 

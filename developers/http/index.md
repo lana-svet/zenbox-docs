@@ -7,7 +7,7 @@ permalink: /developers/http/
 {% include header.html color="#3f9b86" img="/img/chemistry.png" title="HTTP API Guide" summary="This guide shows how to use Zenbox HTTP API in your application or device" %}
 
 The HTTP API of Zenbox enables you to send user\'s requests to your Zenbox project and receive a responses from currently enabled voice skills.
-This API is the most easy to use one but has a major limitation: **it does not provide a ready-to-use speech-to-text and text-to-speech components**.
+This API is the most easy to use one but has a major limitation: **it does not provide a ready-for-use speech-to-text and text-to-speech components**.
 It only works with text input already obtained from one of speech-to-text service providers and returns a text to synthesise with some text-to-speech service.
 
 Thus you have to use this API only if you have implemented the speech-to-text and text-to-speech components on your own.
