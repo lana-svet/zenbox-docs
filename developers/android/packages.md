@@ -62,11 +62,12 @@ To include Yandex Speechkit into your project, add this dependency in your `buil
 compile 'com.justai.zenbox.android-sdk:yandex-speechkit:1.1.0'
 ```
 
-To instantiate a Yandex SpeechKit in your app please use `YandexSpeechToText` and `YandexTextToSpeech` classes
+To instantiate a Yandex SpeechKit in your app please use `YandexSpeechToText`, `YandexTextToSpeech` and `TandexVoiceTrigger` classes
 
 ```java
 YandexSpeechToText speechToText = new YandexSpeechToText(this, "Your SpeechKit Mobile SDK key", YandexSpeechToText.LANG_EN);
 YandexTextToSpeech textToSpeech = new YandexTextToSpeech(this, "Your SpeechKit Mobile SDK key", YandexTextToSpeech.LANG_EN, YandexTextToSpeech.VOICE_FEMALE_ALYSS);
+YandexVoiceTrigger voiceTrigger = new YandexVoiceTrigger(this, "Your SpeechKit Mobile SDK key", "Your phrase spotter model data path");
 ```
 
 Before using this package you have to obtain your SpeechKit Mobile SDK key from [https://tech.yandex.ru/speechkit/mobilesdk/](https://tech.yandex.ru/speechkit/mobilesdk/).
