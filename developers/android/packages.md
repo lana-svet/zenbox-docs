@@ -59,7 +59,7 @@ This package supports all Zenbox languages and provides `SpeechToText` and `Text
 To include Yandex Speechkit into your project, add this dependency in your `build.gradle` file
 
 ```groovy
-compile 'com.justai.zenbox.android-sdk:yandex-speechkit:1.0.0'
+compile 'com.justai.zenbox.android-sdk:yandex-speechkit:1.1.0'
 ```
 
 To instantiate a Yandex SpeechKit in your app please use `YandexSpeechToText` and `YandexTextToSpeech` classes

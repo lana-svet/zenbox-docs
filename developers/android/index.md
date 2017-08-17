@@ -65,8 +65,8 @@ add the following into your `build.gradle`
 ```groovy
 dependencies {
     ...
-    compile 'com.justai.zenbox:android-sdk:1.0.0'
-    compile 'com.justai.zenbox.android-sdk:yandex-speechkit:1.0.0'
+    compile 'com.justai.zenbox:android-sdk:1.0.1'
+    compile 'com.justai.zenbox.android-sdk:yandex-speechkit:1.1.0'
 }
 ```
 
