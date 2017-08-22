@@ -104,7 +104,7 @@ This voice skill enriches the dialog with unit\'s personality and supports conve
 
 
 ## Additional parameters
-This skill requires you to fill sample responses on pre-defined questions that user can ask during the conversation.
+This skill does not require any additional parameters to enable it.
 
 ## Integration
 
