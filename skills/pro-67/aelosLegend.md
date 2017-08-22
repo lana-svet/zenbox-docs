@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Aelos Legend skill
-permalink: /skills/aelosLegend/
+permalink: /skills/pro-67/aelosLegend/
 ---
 
 {% include header.html color="#0b2228" img="https://assets.zenbox.ai/zenbox-icons/aelosRobot.png" title="Aelos Legend skill" summary="Customizes response for situation when unit doesn’t know what to say" %}
