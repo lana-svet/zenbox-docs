@@ -13,18 +13,10 @@ This voice skill enriches the dialog with unit\'s personality and supports conve
 `English`
 
 ## Sample phrases
-{% include sample.html request="What can you do?" response="Singing, dancing and acrobatics would be a piece of cake for me!
-
-code: 1" %}
-{% include sample.html request="Introduce yourself!" response="Hi, you can call me Aelos, I am a Intelligent humanoid robot. I am small but I can do a lot of things.
-
-code: 2" %}
-{% include sample.html request="Where do you come from?" response="I came from a distant planet.
-
-code: 5" %}
-{% include sample.html request="Are you a boy or a girl?" response="I'm a robot.
-
-code: 9" %}
+{% include sample.html request="What can you do?" response="Singing, dancing and acrobatics would be a piece of cake for me! <code>code: 1</code>" %}
+{% include sample.html request="Introduce yourself!" response="Hi, you can call me Aelos, I am a Intelligent humanoid robot. I am small but I can do a lot of things.\ncode: 2" %}
+{% include sample.html request="Where do you come from?" response="I came from a distant planet.<br/>code: 5" %}
+{% include sample.html request="Are you a boy or a girl?" response="I'm a robot.&lt;br/&gt;code: 9" %}
 {% include sample.html request="What's your height?" response="About 35 centimeters.
 
 code: 20" %}
