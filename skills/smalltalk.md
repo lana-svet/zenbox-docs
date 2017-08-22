@@ -4,7 +4,7 @@ title: Smalltalk skill
 permalink: /skills/smalltalk/
 ---
 
-{% include header.html color="#668000" img="https://assets.zenbox.ai/zenbox-icons/smalltalk.png" title="Smalltalk skill" summary="Customizes response for situation when unit doesn’t know what to say" %}
+{% include header.html color="#668000" img="https://assets.zenbox.ai/zenbox-icons/smallTalk.png" title="Smalltalk skill" summary="Customizes response for situation when unit doesn’t know what to say" %}
 
 ## Summary
 This voice skill enriches the dialog with unit\'s personality and supports conversation.
