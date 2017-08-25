@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Battery status skill
-permalink: /skills/battery/
+permalink: /skills/batteryControl/
 ---
 
 {% include header.html color="#967d7d" img="https://assets.zenbox.ai/zenbox-icons/battery.png" title="Battery status skill" summary="Shows battery status of the device" %}
