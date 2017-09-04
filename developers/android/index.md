@@ -37,7 +37,7 @@ repositories {
 }
 dependencies {
     ...
-    compile 'com.justai.zenbox:android-sdk:1.1.0'
+    compile 'com.justai.zenbox:android-sdk:1.2.0'
 }
 ```
 
@@ -65,17 +65,17 @@ add the following into your `build.gradle`
 ```groovy
 dependencies {
     ...
-    compile 'com.justai.zenbox:android-sdk:1.1.0'
-    compile 'com.justai.zenbox.android-sdk:yandex-speechkit:1.2.0'
+    compile 'com.justai.zenbox:android-sdk:1.2.0'
+    compile 'com.justai.zenbox.android-sdk:yandex-speechkit:1.3.0'
 }
 ```
 
 In your code instantiate [ZenboxService](javadoc/com/justai/zenbox/sdk/ZenboxService.html)
 
 ```java
-YandexSpeechToText speechToText = new YandexSpeechToText(this, SPEECH_KIT_KEY, YandexSpeechToText.LANG_EN);
-YandexTextToSpeech textToSpeech = new YandexTextToSpeech(this, SPEECH_KIT_KEY, YandexTextToSpeech.LANG_EN, YandexTextToSpeech.VOICE_FEMALE_ALYSS);
-ZenboxService service = new ZenboxService.Builder(this, "Your Zenbox Project API key", "Unique Unit ID")
+YandexSpeechToText speechToText = new YandexSpeechToText(this, SPEECH_KIT_KEY, DEVICE_ID, YandexSpeechToText.LANG_EN);
+YandexTextToSpeech textToSpeech = new YandexTextToSpeech(this, SPEECH_KIT_KEY, DEVICE_ID, YandexTextToSpeech.LANG_EN, YandexTextToSpeech.VOICE_FEMALE_ALYSS);
+ZenboxService service = new ZenboxService.Builder(this, "Your Zenbox Project API key", DEVICE_ID)
                 .setSpeechToText(speechToText)
                 .setTextToSpeech(textToSpeech)
                 .build();
